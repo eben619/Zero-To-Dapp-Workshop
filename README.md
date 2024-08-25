@@ -1,5 +1,5 @@
 # <div align="center">Zero-To-Dapp-Workshop</div>
-<div></div>
+<div align="center"><img src="https://github.com/eben619/Zero-To-Dapp-Workshop/blob/main/ethAccraHero.svg"></div>
 
 
 ### <div>Link To Remix Presentation</div>
