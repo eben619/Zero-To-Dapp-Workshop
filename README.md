@@ -236,6 +236,14 @@ Constructor: The constructor is a special function that is executed only once wh
         escrowAgent = msg.sender;: Assigns the deployer of the contract as the escrow agent.
 
         currentState = State.AWAITING_PAYMENT;  Sets the initial state of the escrow to AWAITING_PAYMENT, indicating that the contract is waiting for the buyer to deposit funds.
+
+Modifiers
+
+    onlyBuyer: This modifier restricts access to a function, ensuring that only the buyer can call it. It checks if msg.sender (the address that called the function) is equal to the buyer's address.
+
+    onlyEscrowAgent: This modifier restricts access to a function, ensuring that only the escrow agent can call it. It checks if msg.sender is equal to the escrow agent's address.
+
+    inState: This modifier restricts function execution based on the current state of the contract. It ensures that the contract is in the specified expectedState before allowing the function to run.
         
 
 
