@@ -202,8 +202,10 @@ contract Escrow {
 
 ```
 
-### <details>
-  <summary>SYNTAX EXPLANATION</summary>
+<details>
+  <summary>
+      ### SYNTAX EXPLANATION
+  </summary>
 
   ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
