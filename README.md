@@ -212,8 +212,9 @@ Pragma Directive: pragma solidity ^0.8.0; declares that the contract is written 
 Contract Declaration:
     contract Escrow defines a new smart contract named Escrow.
 
-Enum State: 
-    -enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, REFUNDED } defines a custom type with four possible values: AWAITING_PAYMENT,           AWAITING_DELIVERY, COMPLETE, and REFUNDED. This enum helps manage the different stages of the escrow process.
+Enum State
+
+    `enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, REFUNDED } defines a custom type with four possible values: AWAITING_PAYMENT,           AWAITING_DELIVERY, COMPLETE, and REFUNDED. This enum helps manage the different stages of the escrow process.`
 
 State Variables
 
