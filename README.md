@@ -37,7 +37,7 @@
     - Data types (Value types, Reference types.. etc)
     - Structure of a function in Solidity
     - Visibility of functions.
-    -  Inheritance.
+    - Inheritance.
     
 (ii) Writing a basic Escrow smart contract in Solidity.<br>
 
