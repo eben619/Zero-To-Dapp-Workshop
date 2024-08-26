@@ -12,7 +12,7 @@
 ### <div>Link To Alfajores Testnet Faucet<div/>
 <p>https://faucet.celo.org/alfajores</p><br>
 
-## <div align="center">SESSION ONE (REMIX IDE)</div>
+## <div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div>
 
 ### <div align="center">OBJECTIVES</div><br>
 
@@ -28,4 +28,4 @@
 
 (vii) Interacting with deployed contracts<br>
 
-### <div></div>
+### <div align="center">SESSION TWO (CELO WORKSHOP)</div>
