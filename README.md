@@ -6,4 +6,8 @@
 
 <p>https://bit.ly/remixAccra24<p/><br>
 
-### <div>Link To Testnet Faucet</div>
+### <div>Link To Sepolia Testnet Faucet</div>
+<p>https://cloud.google.com/application/web3/faucet/ethereum/sepolia</p><br>
+
+### <div>Link To Alfajores Testnet Faucet<div/>
+<p>https://faucet.celo.org/alfajores</p><br>
