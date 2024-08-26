@@ -56,6 +56,79 @@
 
 ## <div align="center"> Resource Materials </div>
 
+Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
+
+## Prerequisites
+
+- Node (v20 or higher)
+- Git (v2.38 or higher)
+
+## How to use Celo Composer
+
+The easiest way to start with Celo Composer is using `@celo/celo-composer`. This CLI tool lets you quickly start building dApps on Celo for multiple frameworks, including React (with either react-celo or rainbowkit-celo), React Native (w/o Expo), Flutter, and Angular. To get started, just run the following command, and follow the steps:
+
+- Step 1
+
+```bash
+npx @celo/celo-composer@latest create
+```
+
+- Step 2: Provide the Project Name: You will be prompted to enter the name of your project.
+
+```text
+What is your project name: 
+```
+
+- Step 3: Choose to Use Hardhat: You will be asked if you want to use Hardhat. Select Yes or No.
+
+```text
+Do you want to use Hardhat? (Y/n)
+```
+
+- Step 4: Choose to Use a Template: You will be asked if you want to use a template. Select `Yes` or `No`.
+
+```text
+Do you want to use a template?
+```
+
+- Step 5: Select a Template: If you chose to use a template, you will be prompted to select a template from the list provided.
+
+```text
+- Minipay
+- Valora
+- Social Connect
+```
+
+- Step 6: Provide the Project Owner's Name: You will be asked to enter the project owner's name.
+
+```text
+Project Owner name:
+```
+
+- Step 7: Wait for Project Creation: The CLI will now create the project based on your inputs. This may take a few minutes.
+
+- Step 8: Follow the instructions to start the project. The same will be displayed on the console after the project is created.
+
+```text
+🚀 Your starter project has been successfully created!
+
+Before you start the project, please follow these steps:
+
+1. Rename the file:
+   packages/react-app/.env.template
+   to
+   packages/react-app/.env
+
+2. Open the newly renamed .env file and add all the required environment variables.
+
+Once you've done that, you're all set to start your project!
+
+Run the following commands from the packages/react-app folder to start the project:
+
+   yarn install
+   yarn dev
+
+
 #  <div> Escrow Smart Contract</div>
 
 ```
