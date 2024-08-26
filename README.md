@@ -201,10 +201,11 @@ contract Escrow {
 
 
 ```
+<div class="dropdown">
+    <button class="dropdown-btn">SYNTAX EXPLANATION</button>
+    <div class="dropdown-content">
 
-## <div>SYNTAX EXPLANATION</div>
-
-<p>
+    <p>
     
 ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
@@ -273,3 +274,10 @@ contract Escrow {
 
     
 </p>
+        
+    </div>
+</div>
+
+
+
+
