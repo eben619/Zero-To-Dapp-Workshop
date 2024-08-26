@@ -28,4 +28,6 @@
 
 (vii) Interacting with deployed contracts<br>
 
+(viii) Writing our own ERC 721 (NFT) contracts and deploying it.
+
 ## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
