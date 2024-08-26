@@ -28,4 +28,4 @@
 
 (vii) Interacting with deployed contracts<br>
 
-### <div align="center">SESSION TWO (CELO WORKSHOP)</div>
+## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
