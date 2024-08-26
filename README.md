@@ -131,7 +131,7 @@ Run the following commands from the packages/react-app folder to start the proje
 
 
 <details>
-  <summary>Escrow Smart Contract</summary>
+  <summary>ESCROW SMART CONTRACT</summary>
 
   ```
 // SPDX-License-Identifier: MIT
