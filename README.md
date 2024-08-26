@@ -202,12 +202,10 @@ contract Escrow {
 
 ```
 
-<div class="dropdown">
-    <button class="dropdown-btn">SYNTAX EXPLANATION</button>
-    <div class="dropdown-content">
-<p>
-    
-***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
+<details>
+  <summary>SYNTAX EXPLANATION</summary>
+
+  ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
 
 ***Pragma Directive:*** pragma solidity ^0.8.0; declares that the contract is written for Solidity version 0.8.0 or higher, but not including version 0.9.0.
@@ -268,10 +266,15 @@ contract Escrow {
 
     currentState = State.AWAITING_DELIVERY;: After a successful deposit, the contract state is updated to AWAITING_DELIVERY.
 
-</p>
-        
-</div>
-</div>
+</details>
+
+
+
+
+    
+
+
+
 
 
 
