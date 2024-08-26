@@ -28,6 +28,13 @@
 
 (vii) Interacting with deployed contracts<br>
 
-(viii) Writing our own ERC 721 (NFT) contracts and deploying it.
+(viii) Writing our own ERC 721 (NFT) contracts and deploying it.<br>
 
 ## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
+
+(i) Intro to Solidity.<br>
+    - Data types (Value types, Reference types.. etc)<br>
+    - Structure of a function in Solidity<br>
+    - Visibility of functions.<br>
+    -  Inheritance.<br>
+(ii) 
