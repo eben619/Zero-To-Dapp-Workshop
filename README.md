@@ -14,4 +14,13 @@
 
 ## <div align="center">SESSION ONE (REMIX IDE)</div>
 
-### <div align="center">OBJECTIVES</div>
+### <div align="center">OBJECTIVES</div><br>
+
+(i) Adapting existing smart contracts and writing your own
+(ii) Compile the code
+(iii) Checking the code for errors and warnings & finding bugs
+(iv) Deploying the compiled code on a blockchain 
+(v) Verifying the contract
+(vii) Interacting with deployed contracts
+
+### <div></div>
