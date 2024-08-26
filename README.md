@@ -304,6 +304,131 @@ SYNTAX EXPLANATION
 
 </details>
 
+<details>
+  <summary>
+FRONTEND FOR ESCROW SMART CONTRACT
+  </summary><br>
+
+
+```
+import React, { useState, useEffect } from 'react';
+import Web3 from 'web3';
+
+// Replace with your deployed contract's ABI and address
+const escrowContractABI = [/* ABI Array Here */];
+const escrowContractAddress = '0xYourContractAddressHere';
+
+const EscrowComponent: React.FC = () => {
+  const [web3, setWeb3] = useState<Web3 | null>(null);
+  const [account, setAccount] = useState<string | null>(null);
+  const [contract, setContract] = useState<any>(null);
+  const [status, setStatus] = useState<string>('');
+
+  // Initialize web3 and set up contract
+  useEffect(() => {
+    const initWeb3 = async () => {
+      if ((window as any).ethereum) {
+        try {
+          const web3Instance = new Web3((window as any).ethereum);
+          setWeb3(web3Instance);
+          
+          const accounts = await web3Instance.eth.requestAccounts();
+          setAccount(accounts[0]);
+
+          const escrowInstance = new web3Instance.eth.Contract(
+            escrowContractABI,
+            escrowContractAddress
+          );
+          setContract(escrowInstance);
+        } catch (error) {
+          console.error('Error initializing web3:', error);
+        }
+      } else {
+        alert('Please install MetaMask!');
+      }
+    };
+
+    initWeb3();
+  }, []);
+
+  // Function to deposit funds
+  const depositFunds = async () => {
+    if (web3 && contract && account) {
+      try {
+        await contract.methods.deposit().send({
+          from: account,
+          value: web3.utils.toWei('1', 'ether'), // Example deposit amount
+        });
+        setStatus('Funds deposited successfully.');
+      } catch (error) {
+        console.error('Deposit failed:', error);
+        setStatus('Deposit failed.');
+      }
+    }
+  };
+
+  // Function to confirm delivery
+  const confirmDelivery = async () => {
+    if (web3 && contract && account) {
+      try {
+        await contract.methods.confirmDelivery().send({ from: account });
+        setStatus('Delivery confirmed successfully.');
+      } catch (error) {
+        console.error('Confirmation failed:', error);
+        setStatus('Confirmation failed.');
+      }
+    }
+  };
+
+  // Function to request a refund
+  const requestRefund = async () => {
+    if (web3 && contract && account) {
+      try {
+        await contract.methods.refund().send({ from: account });
+        setStatus('Refund requested successfully.');
+      } catch (error) {
+        console.error('Refund failed:', error);
+        setStatus('Refund failed.');
+      }
+    }
+  };
+
+  return (
+    <div className="p-4">
+      <h2 className="text-xl mb-4">Escrow Contract Interaction</h2>
+      <p>Status: {status}</p>
+      {account ? (
+        <div>
+          <button
+            onClick={depositFunds}
+            className="bg-blue-500 text-white p-2 m-2 rounded"
+          >
+            Deposit Funds
+          </button>
+          <button
+            onClick={confirmDelivery}
+            className="bg-green-500 text-white p-2 m-2 rounded"
+          >
+            Confirm Delivery
+          </button>
+          <button
+            onClick={requestRefund}
+            className="bg-red-500 text-white p-2 m-2 rounded"
+          >
+            Request Refund
+          </button>
+        </div>
+      ) : (
+        <p>Please connect to MetaMask.</p>
+      )}
+    </div>
+  );
+};
+
+export default EscrowComponent;
+
+```
+</details>
 
 
 
