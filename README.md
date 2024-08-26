@@ -245,6 +245,22 @@ Modifiers
 
     inState: This modifier restricts function execution based on the current state of the contract. It ensures that the contract is in the specified expectedState before allowing the function to run.
         
+Deposit Function:  This function allows the buyer to deposit Ether into the escrow contract.
+
+    external: Specifies that this function can be called from outside the contract.
+
+    payable: Indicates that the function can receive Ether.
+
+    onlyBuyer: Ensures that only the buyer can call this function.
+
+    inState(State.AWAITING_PAYMENT): Ensures that the contract is currently in the AWAITING_PAYMENT state.
+
+    require(msg.value > 0, "Deposit must be greater than 0.");: This check ensures that the deposited amount is greater than zero.
+
+    currentState = State.AWAITING_DELIVERY;: After a successful deposit, the contract state is updated to AWAITING_DELIVERY.
+
+    
+
 
 
     
