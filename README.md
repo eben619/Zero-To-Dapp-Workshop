@@ -34,19 +34,19 @@
 
 (i) Intro to Solidity.<br>
 
-    - Data types (Value types, Reference types.. etc)<br>
-    - Structure of a function in Solidity<br>
-    - Visibility of functions.<br>
-    -  Inheritance.<br>
+    - Data types (Value types, Reference types.. etc)
+    - Structure of a function in Solidity
+    - Visibility of functions.
+    -  Inheritance.
     
 (ii) Writing a basic Escrow smart contract in Solidity.<br>
 
-    - Explaining the escrow smart contract's syntax.<br>
+    - Explaining the escrow smart contract's syntax.
 
 (iii) Introduction To Celo Composer<br>
 
-    - Create a new project with the celo composer. <br>
-    - Explain Celo Composer Templates. (Valora, MiniPay, Social Connect)<br>
+    - Create a new project with the celo composer. 
+    - Explain Celo Composer Templates. (Valora, MiniPay, Social Connect)
     - Create a frontend for the Escrow Smart contract with Celo Composer.
     - Handle smart contract interactions.
     - How to add more chains to Celo Composer.
