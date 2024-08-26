@@ -201,11 +201,11 @@ contract Escrow {
 
 
 ```
+
 <div class="dropdown">
     <button class="dropdown-btn">SYNTAX EXPLANATION</button>
     <div class="dropdown-content">
-
-    <p>
+<p>
     
 ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
@@ -268,14 +268,9 @@ contract Escrow {
 
     currentState = State.AWAITING_DELIVERY;: After a successful deposit, the contract state is updated to AWAITING_DELIVERY.
 
-    
-
-
-
-    
 </p>
         
-    </div>
+</div>
 </div>
 
 
