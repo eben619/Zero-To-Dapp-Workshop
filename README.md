@@ -13,3 +13,5 @@
 <p>https://faucet.celo.org/alfajores</p><br>
 
 ## <div align="center">SESSION ONE (REMIX IDE)</div>
+
+### <div align="center">OBJECTIVES</div>
