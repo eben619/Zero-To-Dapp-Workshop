@@ -205,18 +205,23 @@ contract Escrow {
 ## <div>SYNTAX EXPLANATION</div>
 
 <p>
-License Identifier: The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
+    
+***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
-Pragma Directive: pragma solidity ^0.8.0; declares that the contract is written for Solidity version 0.8.0 or higher, but not including version 0.9.0.
 
-Contract Declaration:
+***Pragma Directive:*** pragma solidity ^0.8.0; declares that the contract is written for Solidity version 0.8.0 or higher, but not including version 0.9.0.
+
+
+***Contract Declaration:***
     contract Escrow defines a new smart contract named Escrow.
+    
 
-Enum State
+***Enum State***
 
     `enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, REFUNDED } defines a custom type with four possible values: AWAITING_PAYMENT,           AWAITING_DELIVERY, COMPLETE, and REFUNDED. This enum helps manage the different stages of the escrow process.`
+    
 
-State Variables
+***State Variables***
 
         address public buyer;: This is a public state variable that holds the Ethereum address of the buyer.
 
@@ -225,9 +230,10 @@ State Variables
         address public escrowAgent;: This is a public state variable that holds the Ethereum address of the escrow agent, who acts as a trusted third party.
 
         State public currentState;: This is a public state variable of type State that holds the current state of the escrow transaction.
+        
 
 
-Constructor: The constructor is a special function that is executed only once when the contract is deployed. It initializes the contract with specific values:
+***Constructor:*** The constructor is a special function that is executed only once when the contract is deployed. It initializes the contract with specific values:
 
         buyer = _buyer;: Sets the buyer's address to the value provided in _buyer parameter.
 
@@ -236,16 +242,18 @@ Constructor: The constructor is a special function that is executed only once wh
         escrowAgent = msg.sender;: Assigns the deployer of the contract as the escrow agent.
 
         currentState = State.AWAITING_PAYMENT;  Sets the initial state of the escrow to AWAITING_PAYMENT, indicating that the contract is waiting for the buyer to deposit funds.
+        
 
-Modifiers
+***Modifiers***
 
     onlyBuyer: This modifier restricts access to a function, ensuring that only the buyer can call it. It checks if msg.sender (the address that called the function) is equal to the buyer's address.
 
     onlyEscrowAgent: This modifier restricts access to a function, ensuring that only the escrow agent can call it. It checks if msg.sender is equal to the escrow agent's address.
 
     inState: This modifier restricts function execution based on the current state of the contract. It ensures that the contract is in the specified expectedState before allowing the function to run.
+    
         
-Deposit Function:  This function allows the buyer to deposit Ether into the escrow contract.
+***Deposit Function:***  This function allows the buyer to deposit Ether into the escrow contract.
 
     external: Specifies that this function can be called from outside the contract.
 
