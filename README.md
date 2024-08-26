@@ -126,7 +126,8 @@ Once you've done that, you're all set to start your project!
 Run the following commands from the packages/react-app folder to start the project:
 
    yarn install
-   yarn dev
+   yarn react-app:dev
+```
 
 
 #  <div> Escrow Smart Contract</div>
