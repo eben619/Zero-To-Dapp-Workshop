@@ -53,3 +53,5 @@
     - Handle smart contract interactions.
     - How to add more chains to Celo Composer.
     - Fully functioning Escrow Dapp.
+
+## <div align="center"> Resource Materials </div>
