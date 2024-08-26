@@ -64,7 +64,7 @@ Celo Composer allows you to quickly build, deploy, and iterate on decentralized 
 - Git (v2.38 or higher)
 
 <details>
-  <summary>HOW TO USE CELO COMPOSER</summary>
+  <summary>HOW TO USE CELO COMPOSER</summary><br>
 
   The easiest way to start with Celo Composer is using `@celo/celo-composer`. This CLI tool lets you quickly start building dApps on Celo for multiple frameworks, including React (with either react-celo or rainbowkit-celo), React Native (w/o Expo), Flutter, and Angular. To get started, just run the following command, and follow the steps:
 
@@ -132,7 +132,7 @@ Run the following commands from the packages/react-app folder to start the proje
 </details>
 
 <details>
-  <summary>ESCROW SMART CONTRACT</summary>
+  <summary>ESCROW SMART CONTRACT</summary><br>
 
   ```
 // SPDX-License-Identifier: MIT
@@ -209,7 +209,7 @@ contract Escrow {
 <details>
   <summary>
 SYNTAX EXPLANATION
-  </summary>
+  </summary><br>
 
   ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
