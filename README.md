@@ -201,3 +201,40 @@ contract Escrow {
 
 
 ```
+
+## <div>SYNTAX EXPLANATION</div>
+
+<p>
+License Identifier: The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
+
+Pragma Directive: pragma solidity ^0.8.0; declares that the contract is written for Solidity version 0.8.0 or higher, but not including version 0.9.0.
+
+Contract Declaration: contract Escrow defines a new smart contract named Escrow.
+
+Enum State: enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, REFUNDED } defines a custom type with four possible values: AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, and REFUNDED. This enum helps manage the different stages of the escrow process.
+
+State Variables
+
+        address public buyer;: This is a public state variable that holds the Ethereum address of the buyer.
+
+        address payable public seller;: This is a public state variable that holds the Ethereum address of the seller, marked as payable because it         will receive Ether.
+
+        address public escrowAgent;: This is a public state variable that holds the Ethereum address of the escrow agent, who acts as a trusted             third party.
+
+        State public currentState;: This is a public state variable of type State that holds the current state of the escrow transaction.
+
+
+Constructor: The constructor is a special function that is executed only once when the contract is deployed. It initializes the contract with specific values:
+
+        buyer = _buyer;: Sets the buyer's address to the value provided in _buyer parameter.
+
+        seller = _seller;: Sets the seller's payable address to the value provided in _seller parameter.
+
+        escrowAgent = msg.sender;: Assigns the deployer of the contract as the escrow agent.
+
+        currentState = State.AWAITING_PAYMENT;: Sets the initial state of the escrow to AWAITING_PAYMENT, indicating that the contract is waiting             for the buyer to deposit funds.
+        
+
+
+    
+</p>
