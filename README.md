@@ -211,6 +211,10 @@ contract Escrow {
 SYNTAX EXPLANATION
   </summary><br>
 
+  ***SUMMARY***
+
+  This contract effectively implements a basic escrow mechanism with three main participants: the buyer, the seller, and the escrow agent. It uses the State enum to track the progress of the transaction and various modifiers to enforce rules about who can call certain functions and when. The contract ensures that funds are securely held and only released based on specific actions by the buyer or the escrow agent, thereby providing a secure method for handling transactions that require an escrow.<br>
+
   ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
 
 
@@ -271,6 +275,31 @@ SYNTAX EXPLANATION
     require(msg.value > 0, "Deposit must be greater than 0.");: This check ensures that the deposited amount is greater than zero.
 
     currentState = State.AWAITING_DELIVERY;: After a successful deposit, the contract state is updated to AWAITING_DELIVERY.
+
+***confirmDelivery Function:***  This function allows the buyer to confirm the delivery of goods or services, which releases the escrowed funds to the seller.
+
+    external: Specifies that this function can be called from outside the contract.
+
+    onlyBuyer: Ensures that only the buyer can call this function.
+
+    inState(State.AWAITING_DELIVERY): Ensures that the contract is currently in the AWAITING_DELIVERY state.
+
+    currentState = State.COMPLETE;: Updates the contract state to COMPLETE.
+
+    seller.transfer(address(this).balance);: Transfers all Ether held in the contract to the seller.
+
+
+***refund Function:***  This function allows the escrow agent to refund the buyer if the delivery conditions are not met.
+
+    external: Specifies that this function can be called from outside the contract.
+
+    onlyEscrowAgent: Ensures that only the escrow agent can call this function.
+
+    inState(State.AWAITING_DELIVERY): Ensures that the contract is currently in the AWAITING_DELIVERY state.
+
+    currentState = State.REFUNDED;: Updates the contract state to REFUNDED.
+
+    payable(buyer).transfer(address(this).balance);: Transfers all Ether held in the contract back to the buyer.
 
 </details>
 
