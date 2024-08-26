@@ -209,17 +209,19 @@ License Identifier: The line // SPDX-License-Identifier: MIT specifies that this
 
 Pragma Directive: pragma solidity ^0.8.0; declares that the contract is written for Solidity version 0.8.0 or higher, but not including version 0.9.0.
 
-Contract Declaration: contract Escrow defines a new smart contract named Escrow.
+Contract Declaration:
+    contract Escrow defines a new smart contract named Escrow.
 
-Enum State: enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, REFUNDED } defines a custom type with four possible values: AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, and REFUNDED. This enum helps manage the different stages of the escrow process.
+Enum State: 
+    enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE, REFUNDED } defines a custom type with four possible values: AWAITING_PAYMENT,             AWAITING_DELIVERY, COMPLETE, and REFUNDED. This enum helps manage the different stages of the escrow process.
 
 State Variables
 
         address public buyer;: This is a public state variable that holds the Ethereum address of the buyer.
 
-        address payable public seller;: This is a public state variable that holds the Ethereum address of the seller, marked as payable because it         will receive Ether.
+        address payable public seller;: This is a public state variable that holds the Ethereum address of the seller, marked as payable because it will receive Ether.
 
-        address public escrowAgent;: This is a public state variable that holds the Ethereum address of the escrow agent, who acts as a trusted             third party.
+        address public escrowAgent;: This is a public state variable that holds the Ethereum address of the escrow agent, who acts as a trusted third party.
 
         State public currentState;: This is a public state variable of type State that holds the current state of the escrow transaction.
 
