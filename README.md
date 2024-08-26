@@ -30,6 +30,8 @@
 
 (viii) Writing our own ERC 721 (NFT) contracts and deploying it.<br>
 
+(ix) Importing the NFT into Metamask.
+
 ## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
 
 (i) Intro to Solidity.<br>
