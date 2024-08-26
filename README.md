@@ -17,10 +17,15 @@
 ### <div align="center">OBJECTIVES</div><br>
 
 (i) Adapting existing smart contracts and writing your own<br>
+
 (ii) Compile the code<br>
+
 (iii) Checking the code for errors and warnings & finding bugs<br>
+
 (iv) Deploying the compiled code on a blockchain<br>
+
 (v) Verifying the contract<br>
+
 (vii) Interacting with deployed contracts<br>
 
 ### <div></div>
