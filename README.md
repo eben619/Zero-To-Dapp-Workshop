@@ -321,7 +321,7 @@ yarn add web3
 
 3)***Create an EscrowComponent.tsx file under the component folder***
 
-4)***Import the EscrowComponent.tsx into the index.tsx file under the pages folder***
+4)***Import the EscrowComponent.tsx component into the index.tsx file under the pages folder***
 
 ```
     import EscrowComponent from '@/components/EscrowComponent';
