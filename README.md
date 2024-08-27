@@ -12,6 +12,11 @@
 ### <div>Link To Alfajores Testnet Faucet<div/>
 <p>https://faucet.celo.org/alfajores</p><br>
 
+
+### <div>Link To Spreadsheet</div>
+
+<p>https://docs.google.com/spreadsheets/d/1KoaSQbOV7zf04XkPNmIWoOw4bDeOTUASXrl77KfkUOI/edit?usp=sharing<p/><br>
+
 ## <div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div>
 
 ### <div align="center">OBJECTIVES</div><br>
