@@ -450,7 +450,7 @@ const EscrowComponent: React.FC = () => {
 export default EscrowComponent; // Export the component for use in other parts of the application
 
 ```
-</details>
+</details><br><br>
 
 <div align="center" >SUPPORT (Join The Celo Ghana Developpers Community)</div><br>
 
