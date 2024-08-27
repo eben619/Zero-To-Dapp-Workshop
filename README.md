@@ -41,6 +41,9 @@
     - Visibility of functions.
     - Inheritance.
     
+***Basic Structure Of A function***
+<img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif" width="500px">
+    
 (ii) Writing a basic Escrow smart contract in Solidity.<br>
 
     - Explaining the escrow smart contract's syntax.
