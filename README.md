@@ -37,8 +37,6 @@
 (i) Intro to Solidity.<br>
 
     - Data types (Value types, Reference types,Other Types.. etc)
-***Value Types:***  In Solidity, value types are data types that store information directly in memory. Eg: integers, booleans<br>
-***Reference Types:***   Every reference type contains an additional descriptor, known as the "data location," that indicates where the data is kept. Eg: Arrays, Structs..<br>
     - Structure of a function in Solidity
     - Visibility of functions.
     - Inheritance.
