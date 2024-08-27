@@ -304,6 +304,17 @@ SYNTAX EXPLANATION
 
 </details>
 
+# Prerequisites
+
+ ***Install web3.js***
+```
+yarn add web3
+
+```
+***Deploy your smart contract and copy the contract ABI***
+
+***Copy your smart contract address***
+
 <details>
   <summary>
 FRONTEND FOR ESCROW SMART CONTRACT
