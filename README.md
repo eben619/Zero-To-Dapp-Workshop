@@ -306,6 +306,13 @@ SYNTAX EXPLANATION
 
 ### Prerequisites
 
+
+
+<details>
+  <summary>
+FRONTEND FOR ESCROW SMART CONTRACT
+  </summary><br>
+    
  ***Install web3.js***
 ```
 yarn add web3
@@ -315,11 +322,7 @@ yarn add web3
 
 ***Copy your smart contract address*** <br>
 
-<details>
-  <summary>
-FRONTEND FOR ESCROW SMART CONTRACT
-  </summary><br>
-
+***Create an EscrowComponent.tsx file under the component folder***
 
 ```
 import React, { useState, useEffect } from 'react';
