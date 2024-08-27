@@ -446,10 +446,12 @@ const EscrowComponent: React.FC = () => {
 
 export default EscrowComponent; // Export the component for use in other parts of the application
 
-
 ```
 </details>
 
+<div align="center" >SUPPORT</div><br>
+
+<div align="center" ><img width="350px" src="https://github.com/eben619/Ho_Code-Jams/blob/main/CeloGhanaCommunity.jpg"></div>
 
 
     
