@@ -72,7 +72,7 @@ Celo Composer allows you to quickly build, deploy, and iterate on decentralized 
 <details>
   <summary>HOW TO USE CELO COMPOSER</summary><br>
 
-  The easiest way to start with Celo Composer is using `@celo/celo-composer`. This CLI tool lets you quickly start building dApps on Celo for multiple frameworks, including React (with either react-celo or rainbowkit-celo), React Native (w/o Expo), Flutter, and Angular. To get started, just run the following command, and follow the steps:
+  The easiest way to start with Celo Composer is by using `@celo/celo-composer`. This CLI tool lets you quickly start building dApps on Celo for multiple frameworks, including React (with either react-celo or rainbowkit-celo), React Native (w/o Expo), Flutter, and Angular. To get started, just run the following command, and follow the steps:
 
 - Step 1
 
