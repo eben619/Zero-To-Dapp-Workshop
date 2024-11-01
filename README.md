@@ -29,7 +29,7 @@
 
 (v) Verifying the contract<br>
 
-(vii) Interacting with deployed contracts<br>
+(vii) Interacting with your deployed contracts<br>
 
 (viii) Writing our own ERC 721 (NFT) contracts and deploying it.<br>
 
