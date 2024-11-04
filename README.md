@@ -21,7 +21,7 @@
 
 (i) Adapting existing smart contracts and writing your own<br>
 
-(ii) Compile the code<br>
+(ii) Compiling the code<br>
 
 (iii) Checking the code for errors and warnings & finding bugs<br>
 
