@@ -19,9 +19,9 @@
 
 ### <div align="center">OBJECTIVES</div><br>
 
-(i) Adapting your existing smart contract and writing your own<br>
+(i) Adapting existing smart contract and writing your own<br>
 
-(ii) Compiling the code<br>
+(ii) Compiling your code<br>
 
 (iii) Checking the code for errors and warnings & finding bugs<br>
 
