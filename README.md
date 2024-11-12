@@ -23,7 +23,7 @@
 
 (ii) Compiling your code<br>
 
-(iii) Checking the code for errors and warnings & finding bugs<br>
+(iii) Checking the code for errors, warnings & finding bugs<br>
 
 (iv) Deploying the compiled code on a blockchain<br>
 
