@@ -27,7 +27,7 @@
 
 (iv) Deploying the compiled code on a blockchain<br>
 
-(v) Verifying the contract<br>
+(v) Verifying the smart contract<br>
 
 (vii) Interacting with your deployed contracts<br>
 
