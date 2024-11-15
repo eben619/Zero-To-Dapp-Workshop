@@ -455,7 +455,7 @@ export default EscrowComponent; // Export the component for use in other parts o
 ```
 </details><br><br>
 
-<div align="center" >SUPPORT (Join The Celo Ghana Developpers Community)</div><br>
+<div align="center" >SUPPORT (Join The Celo Ghana Developper Community)</div><br>
 
 <div align="center" ><img width="350px" src="https://github.com/eben619/Ho_Code-Jams/blob/main/CeloGhanaCommunity.jpg"></div>
 
