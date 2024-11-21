@@ -219,7 +219,7 @@ SYNTAX EXPLANATION
 
   ***SUMMARY***
 
-  This contract effectively implements a basic escrow mechanism with three main participants: the buyer, the seller, and the escrow agent. It uses the State enum to track the progress of the transaction and various modifiers to enforce rules about who can call certain functions and when. The contract ensures that funds are securely held and only released based on specific actions by the buyer or the escrow agent, thereby providing a secure method for handling transactions that require an escrow.<br>
+  This contract effectively implements a basic escrow mechanism with three main participants; the buyer, the seller, and the escrow agent. It uses the State enum to track the progress of the transaction and various modifiers to enforce rules about who can call certain functions and when. The contract ensures that funds are securely held and only released based on specific actions by the buyer or the escrow agent, thereby providing a secure method for handling transactions that require an escrow.<br>
 
 
   ***License Identifier:***  The line // SPDX-License-Identifier: MIT specifies that this contract is licensed under the MIT license, which is a permissive free software license.
