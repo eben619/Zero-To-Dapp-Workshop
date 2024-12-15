@@ -7,11 +7,11 @@
 <p>https://bit.ly/remixAccra24<p/><br>
 
 
-### <div>Link To Alfajores Testnet Faucet<div/>
+### <div>The Link To Alfajores Testnet Faucet<div/>
 <p>https://faucet.celo.org/alfajores</p><br>
 
 
-### <div>Link To Spreadsheet</div>
+### <div>The Link To Spreadsheet</div>
 
 <p>https://docs.google.com/spreadsheets/d/1KoaSQbOV7zf04XkPNmIWoOw4bDeOTUASXrl77KfkUOI/edit?usp=sharing<p/><br>
 
