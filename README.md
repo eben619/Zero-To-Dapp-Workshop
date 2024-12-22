@@ -19,11 +19,11 @@
 
 ### <div align="center">OBJECTIVES</div><br>
 
-(i) Adapting existing smart contracts and writing your own<br>
+(i) Adapting your existing smart contracts and writing your own<br>
 
 (ii) Compiling your code<br>
 
-(iii) Checking the code for errors, warnings and finding bugs<br>
+(iii) Checking your code for errors, warnings and finding bugs<br>
 
 (iv) Deploying the compiled code on a blockchain<br>
 
