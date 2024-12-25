@@ -7,7 +7,7 @@
 <p>https://bit.ly/remixAccra24<p/><br>
 
 
-### <div>Link To Alfajores Testnet Faucet<div/>
+### <div> Alfajores Testnet Faucet<div/>
 <p>https://faucet.celo.org/alfajores</p><br>
 
 
@@ -391,7 +391,7 @@ const EscrowComponent: React.FC = () => {
     }
   };
 
-  // Function to confirm delivery of goods/services in the escrow contract
+  // Function to confirm delivery of goods or services in the escrow contract
   const confirmDelivery = async () => {
     if (web3 && contract && account) { // Ensure web3, contract, and account are available
       try {
