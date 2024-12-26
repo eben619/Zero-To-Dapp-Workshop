@@ -37,7 +37,7 @@
 
 ## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
 
-(i) Intro to Solidity.<br>
+(i) Introduction to Solidity.<br>
 
     - Data types (Value types, Reference types,Other Types.. etc)
     - Structure of a function in Solidity
@@ -51,7 +51,7 @@
 
     - Explaining the escrow smart contract's syntax.
 
-(iii) Introduction To Celo Composer<br>
+(iii) Introduction To The Celo Composer<br>
 
     - Create a new project with the celo composer. 
     - Explain Celo Composer Templates. (Valora, MiniPay, Social Connect)
