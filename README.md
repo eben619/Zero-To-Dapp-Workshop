@@ -1,4 +1,4 @@
-# <div align="center">Zero-To-Dapp-Workshop</div>
+# <div align="center">Zero-To-Dapp-Workshop 2024</div>
 <div align="center" ><img width="350px" src="https://github.com/eben619/Zero-To-Dapp-Workshop/blob/main/ethAccraHero.png"></div>
 
 
