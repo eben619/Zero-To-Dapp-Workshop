@@ -138,7 +138,7 @@ Run the following commands from the packages/react-app folder to start the proje
 </details>
 
 <details>
-  <summary>ESCROW SMART CONTRACT</summary><br>
+  <summary> ESCROW SMART CONTRACT</summary><br>
 
   ```
 // SPDX-License-Identifier: MIT
@@ -313,7 +313,7 @@ SYNTAX EXPLANATION
 
 <details>
   <summary>
-FRONTEND FOR ESCROW SMART CONTRACT
+FRONTEND FOR THE ESCROW SMART CONTRACT
   </summary><br>
     
  ***Install web3.js***
