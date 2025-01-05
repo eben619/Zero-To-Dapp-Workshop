@@ -31,7 +31,7 @@
 
 (vii) Interacting with your deployed contracts<br>
 
-(viii) Writing our own ERC 721 (NFT) contracts and deploying it.<br>
+(viii) Writing your own ERC 721 (NFT) contracts and deploying it.<br>
 
 (ix) Importing your NFT into Metamask.
 
