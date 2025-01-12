@@ -25,7 +25,7 @@
 
 (iii) Checking your code for errors, warnings and finding bugs<br>
 
-(iv) Deploying the compiled code on a blockchain<br>
+(iv) Deploying the compiled contract on a blockchain<br>
 
 (v) Verifying your smart contract. <br>
 
