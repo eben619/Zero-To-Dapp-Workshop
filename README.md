@@ -16,8 +16,7 @@
 
 <p>https://docs.google.com/spreadsheets/d/1KoaSQbOV7zf04XkPNmIWoOw4bDeOTUASXrl77KfkUOI/edit?usp=sharing<p/><br>
 
-<details>
-  <summary><div align="">SESSION ONE (REMIX IDE WORKSHOP)</div></summary><br>
+<details><summary><div align="">SESSION ONE (REMIX IDE WORKSHOP)</div></summary><br>
   
 <div align="">OBJECTIVES</div><br>
 
