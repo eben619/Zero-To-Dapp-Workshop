@@ -18,7 +18,24 @@
 
 <details>
   <summary><div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div></summary><br>
+  
+<div align="">OBJECTIVES</div><br>
 
+(i) Adapting your existing smart contracts and writing your own<br>
+
+(ii) Compiling your code<br>
+
+(iii) Checking your code for errors, warnings and finding bugs<br>
+
+(iv) Deploying the compiled contract on a blockchain<br>
+
+(v) Verifying your smart contract. <br>
+
+(vii) Interacting with your deployed contracts<br>
+
+(viii) Writing your own ERC 721 (NFT) contracts and deploying it.<br>
+
+(ix) Importing your NFT into Metamask.
     
 </details>
 
