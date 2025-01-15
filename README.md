@@ -1,4 +1,5 @@
 # <div align="center">Zero-To-Dapp-Workshop 2024</div>
+
 <div align="center" ><img width="350px" src="https://github.com/eben619/Zero-To-Dapp-Workshop/blob/main/ethAccraHero.png"></div>
 
 
@@ -14,6 +15,12 @@
 ### <div>Link To Spreadsheet</div>
 
 <p>https://docs.google.com/spreadsheets/d/1KoaSQbOV7zf04XkPNmIWoOw4bDeOTUASXrl77KfkUOI/edit?usp=sharing<p/><br>
+
+<details>
+  <summary><div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div></summary><br>
+
+    
+</details>
 
 ## <div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div>
 
