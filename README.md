@@ -17,7 +17,7 @@
 <p>https://docs.google.com/spreadsheets/d/1KoaSQbOV7zf04XkPNmIWoOw4bDeOTUASXrl77KfkUOI/edit?usp=sharing<p/><br>
 
 <details>
-  <summary><div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div></summary><br>
+  <summary><div align="">SESSION ONE (REMIX IDE WORKSHOP)</div></summary><br>
   
 <div align="">OBJECTIVES</div><br>
 
@@ -39,25 +39,43 @@
     
 </details>
 
-## <div align="center">SESSION ONE (REMIX IDE WORKSHOP)</div>
+<details>
+  <summary><div align="">SESSION TWO (CELO WORKSHOP)</div></summary><br>
+  
+(i) Introduction to Solidity.<br>
 
-### <div align="center">OBJECTIVES</div><br>
+    - Data types (Value types, Reference types,Other Types.. etc)
+    - Structure of a function in Solidity
+    - Visibility of functions.
+    - Inheritance.
+    
+***Basic Structure Of A function***<br>
+<img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif" width="500px">
+    
+(ii) Writing a basic Escrow smart contract in Solidity<br>
 
-(i) Adapting your existing smart contracts and writing your own<br>
+    - Explaining the escrow smart contract's syntax.
 
-(ii) Compiling your code<br>
+(iii) Introduction To Celo Composer<br>
 
-(iii) Checking your code for errors, warnings and finding bugs<br>
+    - Create a new project with the celo composer. 
+    - Explain Celo Composer Templates. (Valora, MiniPay, Social Connect)
+    - Create a frontend for the Escrow Smart contract with Celo Composer.
+    - Handle smart contract interactions.
+    - How to add more chains to Celo Composer.
+    - Fully functioning Escrow Dapp.
 
-(iv) Deploying the compiled contract on a blockchain<br>
+## <div align="center"> Resource Materials </div>
 
-(v) Verifying your smart contract. <br>
+The Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
 
-(vii) Interacting with your deployed contracts<br>
+## Prerequisites
 
-(viii) Writing your own ERC 721 (NFT) contracts and deploying it.<br>
+- Node (v20 or higher)
+- Git (v2.38 or higher)
 
-(ix) Importing your NFT into Metamask.
+    
+</details>
 
 ## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
 
