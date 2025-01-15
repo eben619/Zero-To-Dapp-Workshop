@@ -77,31 +77,6 @@ The Celo Composer allows you to quickly build, deploy, and iterate on decentrali
     
 </details>
 
-## <div align="center">SESSION TWO (CELO WORKSHOP)</div>
-
-(i) Introduction to Solidity.<br>
-
-    - Data types (Value types, Reference types,Other Types.. etc)
-    - Structure of a function in Solidity
-    - Visibility of functions.
-    - Inheritance.
-    
-***Basic Structure Of A function***<br>
-<img src="https://github.com/eben619/Celo_Africa_Dao-Ghana_University_Tour/blob/main/function.avif" width="500px">
-    
-(ii) Writing a basic Escrow smart contract in Solidity<br>
-
-    - Explaining the escrow smart contract's syntax.
-
-(iii) Introduction To Celo Composer<br>
-
-    - Create a new project with the celo composer. 
-    - Explain Celo Composer Templates. (Valora, MiniPay, Social Connect)
-    - Create a frontend for the Escrow Smart contract with Celo Composer.
-    - Handle smart contract interactions.
-    - How to add more chains to Celo Composer.
-    - Fully functioning Escrow Dapp.
-
 ## <div align="center"> Resource Materials </div>
 
 The Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
