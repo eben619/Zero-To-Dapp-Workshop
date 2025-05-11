@@ -23,11 +23,11 @@
 
 (ii) Compiling your code<br>
 
-(iii) Checking your code for errors, warnings and finding bugs<br>
+(iii) Checking your code for errors, warnings and finding bugs <br>
 
 (iv) Deploying the compiled contract on a blockchain<br>
 
-(v) Verifying your smart contract. <br>
+(v) Verifying your contract. <br>
 
 (vii) Interacting with your deployed contracts<br>
 
