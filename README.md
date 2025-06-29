@@ -19,13 +19,13 @@
   
 <div align="">OBJECTIVES</div><br>
 
-(i) Adapting your existing smart contracts and writing your own<br>
+(i) Adapting the existing smart contracts and writing your own<br>
 
-(ii) Compiling your code<br>
+(ii) Compiling your code <br>
 
 (iii) Checking your code for errors, warnings and finding bugs <br>
 
-(iv) Deploying the compiled contract on a blockchain<br>
+(iv) Deploying the compiled contract on a blockchain <br>
 
 (v) Verifying your contract. <br>
 
@@ -110,7 +110,7 @@ Do you want to use Hardhat? (Y/n)
 - Step 4: Choose to Use a Template: You will be asked if you want to use a template. Select `Yes` or `No`.
 
 ```text
-Do you want to use a template?
+Do you want to use a template ?
 ```
 
 - Step 5: Select a Template: If you chose to use a template, you will be prompted to select a template from the list provided.
